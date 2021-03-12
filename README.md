@@ -11,13 +11,18 @@ The sample emulator was set up with Nexus 5 and Lillipop android 5.1 x86.
 
 ## Install & Usage
 When the emulator is ready, follow the steps below.  
-First, You should edit run_nativeDBI_by_host.sh.  
-Change target application name and emulator name.  
-After change, Just run below commands.  
+
 ```sh
 mkdir native_dbi
 cd native_dbi
 git clone https://github.com/ssu-csec/code-Mobile_Native_DBI
+```
+
+You should edit run_nativeDBI_by_host.sh.  
+Change target application name and emulator name.  
+After change, Just run below commands.  
+
+```sh
 ./run_nativeDBI_by_host.sh
 ```
 
