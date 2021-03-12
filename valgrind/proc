@@ -1,0 +1,22 @@
+root@hammerhead:/ # cat /proc/18382/maps | grep jni                            
+10231000-1026a000 r-xp 00000000 b3:19 916        /system/lib/libmedia_jni.so
+1026b000-1026d000 r--p 00039000 b3:19 916        /system/lib/libmedia_jni.so
+1026d000-1026e000 rw-p 0003b000 b3:19 916        /system/lib/libmedia_jni.so
+1048e000-10492000 r-xp 00000000 b3:19 816        /system/lib/libaudioeffect_jni.so
+10492000-10493000 r--p 00003000 b3:19 816        /system/lib/libaudioeffect_jni.so
+10493000-10494000 rw-p 00004000 b3:19 816        /system/lib/libaudioeffect_jni.so
+10494000-1049b000 r-xp 00000000 b3:19 966        /system/lib/librs_jni.so
+1049b000-1049c000 r--p 00006000 b3:19 966        /system/lib/librs_jni.so
+1049c000-1049d000 rw-p 00007000 b3:19 966        /system/lib/librs_jni.so
+10549000-1054a000 r--p 00000000 b3:1c 106043     /data/dalvik-cache/arm/data@app@com.example.jnitest-1@base.apk@classes.dex
+127fd000-127fe000 r-xp 00000000 b3:19 906        /system/lib/libjnigraphics.so
+127fe000-127ff000 r--p 00000000 b3:19 906        /system/lib/libjnigraphics.so
+127ff000-12800000 rw-p 00001000 b3:19 906        /system/lib/libjnigraphics.so
+12803000-1280a000 r--s 0016d000 b3:1c 162886     /data/app/com.example.jnitest-1/base.apk
+1280a000-12847000 r--s 00005000 b3:1c 162886     /data/app/com.example.jnitest-1/base.apk
+12847000-1284a000 r-xp 00000000 b3:1c 162889     /data/app/com.example.jnitest-1/lib/arm/libjniCalculator.so
+1284a000-1284b000 r--p 00002000 b3:1c 162889     /data/app/com.example.jnitest-1/lib/arm/libjniCalculator.so
+1284b000-1284c000 rw-p 00003000 b3:1c 162889     /data/app/com.example.jnitest-1/lib/arm/libjniCalculator.so
+52c00000-52e9a000 r--p 00000000 b3:1c 106043     /data/dalvik-cache/arm/data@app@com.example.jnitest-1@base.apk@classes.dex
+52e9a000-53095000 r-xp 0029a000 b3:1c 106043     /data/dalvik-cache/arm/data@app@com.example.jnitest-1@base.apk@classes.dex
+53095000-53096000 rw-p 00495000 b3:1c 106043     /data/dalvik-cache/arm/data@app@com.example.jnitest-1@base.apk@classes.dex

@@ -1,0 +1,24 @@
+priv/libvex_arm64_linux_a-main_util.o: priv/main_util.c \
+ ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex.h \
+ ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex_ir.h \
+ priv/main_globals.h priv/main_util.h ../VEX/pub/libvex_inner.h \
+ ../config.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+priv/main_globals.h:
+
+priv/main_util.h:
+
+../VEX/pub/libvex_inner.h:
+
+../config.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h:

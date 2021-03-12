@@ -1,0 +1,7 @@
+Starting: Intent { act=android.intent.action.MAIN cmp=com.example.jnitest/.MainActivity }
+Status: ok
+Activity: com.example.jnitest/.MainActivity
+ThisTime: 19080
+TotalTime: 19080
+WaitTime: 19126
+Complete

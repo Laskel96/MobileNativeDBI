@@ -1,0 +1,204 @@
+vgpreload_drd_arm_linux_so-drd_pthread_intercepts.o: \
+ drd_pthread_intercepts.c \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/assert.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/cdefs.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/android/api-level.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/errno.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/errno.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/errno.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/errno.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/errno-base.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/pthread.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/time.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/time.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/types.h \
+ /android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h \
+ /android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/stdint.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/_types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/_types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/_wchar_limits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/posix_types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/stddef.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/compiler.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/posix_types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/kernel.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/time.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/siginfo.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/siginfo.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/signal.h \
+ /android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h \
+ /android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/limits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/limits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/limits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/internal_types.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/limits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/syslimits.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/page.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/string.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/malloc.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/signal.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/signal.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/sigcontext.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/ucontext.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/user.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sched.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/semaphore.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/stdio.h \
+ /android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/stdlib.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/alloca.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/strings.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/memory.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/unistd.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/select.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/sysconf.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/capability.h \
+ /android-ndk-r10c/platforms/android-14/arch-arm/usr/include/pathconf.h \
+ ../config.h drd_basics.h ../include/pub_tool_basics.h \
+ ../VEX/pub/libvex_basictypes.h drd_clientreq.h drd.h \
+ ../include/valgrind.h ../include/pub_tool_redir.h \
+ ../include/pub_tool_basics.h
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/assert.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/cdefs.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/android/api-level.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/errno.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/errno.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/errno.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/errno.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/pthread.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/time.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/time.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/types.h:
+
+/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stddef.h:
+
+/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdint.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/stdint.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/_types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/_types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/_wchar_limits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/posix_types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/stddef.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/compiler.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/posix_types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/kernel.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/sysmacros.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/time.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/siginfo.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/signal.h:
+
+/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/limits.h:
+
+/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include-fixed/syslimits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/limits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/limits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/limits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/internal_types.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/machine/limits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/syslimits.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/page.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/string.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/malloc.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/signal.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm-generic/signal.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/asm/sigcontext.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/ucontext.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/user.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sched.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/semaphore.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/stdio.h:
+
+/android-ndk-r10c/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9/include/stdarg.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/stdlib.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/alloca.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/strings.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/memory.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/unistd.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/select.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/sys/sysconf.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/linux/capability.h:
+
+/android-ndk-r10c/platforms/android-14/arch-arm/usr/include/pathconf.h:
+
+../config.h:
+
+drd_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+drd_clientreq.h:
+
+drd.h:
+
+../include/valgrind.h:
+
+../include/pub_tool_redir.h:
+
+../include/pub_tool_basics.h:

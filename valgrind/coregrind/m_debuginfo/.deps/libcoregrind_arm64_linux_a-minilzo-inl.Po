@@ -1,0 +1,39 @@
+m_debuginfo/libcoregrind_arm64_linux_a-minilzo-inl.o: \
+ m_debuginfo/minilzo-inl.c \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/syslimits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/android/api-level.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/syslimits.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stddef.h \
+ m_debuginfo/minilzo.h m_debuginfo/lzoconf.h m_debuginfo/lzodefs.h
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/syslimits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/android/api-level.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/syslimits.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stddef.h:
+
+m_debuginfo/minilzo.h:
+
+m_debuginfo/lzoconf.h:
+
+m_debuginfo/lzodefs.h:

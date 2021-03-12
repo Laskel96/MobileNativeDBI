@@ -1,0 +1,243 @@
+vgpreload_helgrind_arm64_linux_so-hg_intercepts.o: hg_intercepts.c \
+ ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h \
+ ../include/pub_tool_redir.h ../config.h ../include/pub_tool_basics.h \
+ ../include/pub_tool_clreq.h ../include/valgrind.h helgrind.h \
+ ../include/valgrind.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/stdio.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/android/api-level.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/types.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stddef.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdint.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/stdint.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/machine/wchar_limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/bitsperlong.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/stddef.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/compiler.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/sysmacros.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/assert.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/errno.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/errno.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/errno.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/errno.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/errno-base.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/pthread.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/time.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/time.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/time.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/xlocale.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/signal.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/syslimits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/limits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/syslimits.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/string.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/malloc.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/sigcontext.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/signal.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/signal.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/signal.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/signal-defs.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/siginfo.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/siginfo.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/ucontext.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/user.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sched.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/sched.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/semaphore.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/fcntl.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/fadvise.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/fcntl.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/fcntl.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/fcntl.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/uio.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/unistd.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/select.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/sysconf.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/pathconf.h \
+ ../shared/vg_replace_strmem.c ../include/pub_tool_poolalloc.h \
+ ../include/pub_tool_hashtable.h ../include/pub_tool_tooliface.h \
+ ../include/pub_tool_errormgr.h ../include/pub_tool_execontext.h \
+ ../include/pub_tool_debuginfo.h ../include/pub_tool_xarray.h \
+ ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+ ../VEX/pub/libvex_ir.h
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:
+
+../include/pub_tool_basics.h:
+
+../include/pub_tool_clreq.h:
+
+../include/valgrind.h:
+
+helgrind.h:
+
+../include/valgrind.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/stdio.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/android/api-level.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stddef.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdint.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/stdint.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/machine/wchar_limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/bitsperlong.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/stddef.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/compiler.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/sysmacros.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/assert.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/errno.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/errno.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/errno.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/errno.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/errno-base.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/pthread.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/time.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/time.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/time.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/xlocale.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/signal.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include-fixed/syslimits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/limits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/syslimits.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/string.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/malloc.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/sigcontext.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/signal.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/signal.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/signal.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/signal-defs.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/siginfo.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/siginfo.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/ucontext.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/user.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sched.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/sched.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/semaphore.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/fcntl.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/fadvise.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/fcntl.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/fcntl.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/fcntl.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/uio.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/unistd.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/select.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/sysconf.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/pathconf.h:
+
+../shared/vg_replace_strmem.c:
+
+../include/pub_tool_poolalloc.h:
+
+../include/pub_tool_hashtable.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_debuginfo.h:
+
+../include/pub_tool_xarray.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:

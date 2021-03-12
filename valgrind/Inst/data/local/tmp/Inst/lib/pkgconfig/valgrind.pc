@@ -1,0 +1,16 @@
+prefix=/data/local/tmp/Inst
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/valgrind
+arch=x86
+os=linux
+platform=x86-linux
+valt_load_address=0x58000000
+
+Name: Valgrind
+Description: A dynamic binary instrumentation framework
+Version: 3.14.0
+Requires:
+Libs: -L${libdir}/valgrind -lcoregrind-x86-linux -lvex-x86-linux -lgcc
+Cflags: -I${includedir}
+

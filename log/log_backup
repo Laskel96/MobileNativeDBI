@@ -1,0 +1,398 @@
+==3149== Nulgrind, the minimal Valgrind tool
+==3149== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote.
+==3149== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==3149== Command: /system/bin/app_process /system/bin --application --nice-name=com.example.jnitest com.android.internal.os.WrapperInit 12 29 android.app.ActivityThread
+==3149== Parent PID: 3148
+==3149== 
+oat offset : 0x0
+package name : com.example.jnitest
+Parsing String
+parsing String complete
+Parsing method
+parsing method complete
+Initialized!
+==3160== 
+
+Static String data = 9773 : string dynamic found
+strlen : 0x12E71000
+
+Static String data = 12650 : string dynamic found
+strlen : 0xF
+string data : "handler == null"
+sig : -1
+
+
+Static String data = 474 : string dynamic found
+strlen : 0xC
+string data : "/data/local/"
+sig : 30
+found signature!
+/data/local/ changed to „data/local/
+
+Static String data = 475 : string dynamic found
+strlen : 0x10
+string data : "/data/local/bin/"
+sig : 30
+found signature!
+/data/local/bin/ changed to „data/local/bin/
+
+Static String data = 476 : string dynamic found
+strlen : 0x11
+string data : "/data/local/xbin/"
+sig : 30
+found signature!
+/data/local/xbin/ changed to „data/local/xbin/
+
+Static String data = 479 : string dynamic found
+strlen : 0x6
+string data : "/sbin/"
+sig : 33
+found signature!
+/sbin/ changed to „sbin/
+
+Static String data = 480 : string dynamic found
+strlen : 0x8
+string data : "/su/bin/"
+sig : 1
+found signature!
+/su/bin/ changed to „su/bin/
+
+Static String data = 5 : 
+Static String data = 482 : string dynamic found
+strlen : 0xC
+string data : "/system/bin/"
+sig : 35
+found signature!
+/system/bin/ changed to „system/bin/
+
+Static String data = 483 : string dynamic found
+strlen : 0x11
+string data : "/system/bin/.ext/"
+sig : 35
+found signature!
+/system/bin/.ext/ changed to „system/bin/.ext/
+
+Static String data = 484 : string dynamic found
+strlen : 0x15
+string data : "/system/bin/failsafe/"
+sig : 35
+found signature!
+/system/bin/failsafe/ changed to „system/bin/failsafe/
+
+Static String data = 485 : string dynamic found
+strlen : 0x10
+string data : "/system/sd/xbin/"
+sig : 38
+found signature!
+/system/sd/xbin/ changed to „system/sd/xbin/
+
+Static String data = 9 : 
+Static String data = 486 : string dynamic found
+strlen : 0x19
+string data : "/system/usr/we-need-root/"
+sig : 39
+found signature!
+/system/usr/we-need-root/ changed to „system/usr/we-need-root/
+
+Static String data = 487 : string dynamic found
+strlen : 0xD
+string data : "/system/xbin/"
+sig : 40
+found signature!
+/system/xbin/ changed to „system/xbin/
+
+Static String data = 481 : string dynamic found
+strlen : 0x19
+string data : "/system/app/Superuser.apk"
+sig : 4
+found signature!
+/system/app/Superuser.apk changed to „system/app/Superuser.apk
+
+Static String data = 472 : string dynamic found
+strlen : 0x6
+string data : "/cache"
+sig : 47
+found signature!
+/cache changed to „cache
+
+Static String data = 13 : 
+Static String data = 473 : string dynamic found
+strlen : 0x5
+string data : "/data"
+sig : 48
+found signature!
+/data changed to „data
+
+Static String data = 477 : string dynamic found
+strlen : 0x4
+string data : "/dev"
+sig : 49
+found signature!
+/dev changed to „dev
+
+Static String data = 20901 : string dynamic found
+strlen : 0x6
+string data : "vector"
+sig : -1
+
+
+Static String data = 8 : 
+Static String data = 4 : 
+Static String data = 8694 : string dynamic found
+strlen : 0xF
+string data : "animated-vector"
+sig : -1
+
+
+Static String data = 8693 : string dynamic found
+strlen : 0x11
+string data : "animated-selector"
+sig : -1
+
+
+Static String data = 470 : string dynamic found
+strlen : 0x4
+string data : ".xml"
+sig : -1
+
+
+Static String data = 20361 : string dynamic found
+strlen : 0x8
+string data : "tintMode"
+sig : -1
+
+
+Static String data = 8857 : string dynamic found
+strlen : 0xC
+string data : "autoMirrored"
+sig : -1
+
+
+Static String data = 20968 : string dynamic found
+strlen : 0xD
+string data : "viewportWidth"
+sig : -1
+
+
+Static String data = 20967 : string dynamic found
+strlen : 0xE
+string data : "viewportHeight"
+sig : -1
+
+
+Static String data = 8495 : string dynamic found
+strlen : 0x5
+string data : "alpha"
+sig : -1
+
+
+Static String data = 17357 : string dynamic found
+strlen : 0x8
+string data : "pathData"
+sig : -1
+
+
+Static String data = 32 : 
+Static String data = 10854 : string dynamic found
+strlen : 0x9
+string data : "fillColor"
+sig : -1
+
+
+Static String data = 10853 : string dynamic found
+strlen : 0x9
+string data : "fillAlpha"
+sig : -1
+
+
+Static String data = 20029 : string dynamic found
+strlen : 0xD
+string data : "strokeLineCap"
+sig : -1
+
+
+Static String data = 20030 : string dynamic found
+strlen : 0xE
+string data : "strokeLineJoin"
+sig : -1
+
+
+Static String data = 20031 : string dynamic found
+strlen : 0x10
+string data : "strokeMiterLimit"
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 20028 : string dynamic found
+strlen : 0xB
+string data : "strokeColor"
+sig : -1
+
+
+Static String data = 20026 : string dynamic found
+strlen : 0xB
+string data : "strokeAlpha"
+sig : -1
+
+
+Static String data = 20034 : string dynamic found
+strlen : 0xB
+string data : "strokeWidth"
+sig : -1
+
+
+Static String data = 6 : 
+Static String data = 20572 : string dynamic found
+strlen : 0xB
+string data : "trimPathEnd"
+sig : -1
+
+
+Static String data = 20573 : string dynamic found
+strlen : 0xE
+string data : "trimPathOffset"
+sig : -1
+
+
+Static String data = 20574 : string dynamic found
+strlen : 0xD
+string data : "trimPathStart"
+sig : -1
+
+
+Static String data = 10861 : string dynamic found
+strlen : 0x8
+string data : "fillType"
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 5 : 
+Static String data = 0 : 
+Static String data = 11105 : string dynamic found
+strlen : 0x8
+string data : "fragment"
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 13764 : string dynamic found
+strlen : 0xF
+string data : "layout_inflater"
+sig : -1
+
+
+Static String data = 19 : 
+Static String data = 0 : 
+Static String data = 1905 : string dynamic found
+strlen : 0x2E
+string data : "Could not invoke makeOptionalFitsSystemWindows"
+sig : -1
+
+
+Static String data = 16011 : string dynamic found
+strlen : 0x1D
+string data : "makeOptionalFitsSystemWindows"
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 18006 : string dynamic found
+strlen : 0x4
+string data : "res/"
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 18548 : string dynamic found
+strlen : 0x8
+string data : "selector"
+sig : -1
+
+
+Static String data = 13532 : string dynamic found
+strlen : 0x4
+string data : "item"
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 6963 : string dynamic found
+strlen : 0x8
+string data : "TextView"
+sig : -1
+
+
+Static String data = 13910 : string dynamic found
+strlen : 0x3
+string data : "log"
+sig : -1
+
+
+Static String data = 9324 : string dynamic found
+strlen : 0x7
+string data : "checksu"
+sig : -1
+
+
+Static String data = 9325 : string dynamic found
+strlen : 0x8
+string data : "checksu!"
+sig : -1
+
+
+Static String data = 20046 : string dynamic found
+strlen : 0x2
+string data : "su"
+sig : -1
+
+
+Static String data = 2854 : string dynamic found
+strlen : 0x14
+string data : "JNI Sample :: sum : "
+sig : -1
+
+
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 8 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 480 : 
+Static String data = 3 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 3 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 
+Static String data = 0 : 

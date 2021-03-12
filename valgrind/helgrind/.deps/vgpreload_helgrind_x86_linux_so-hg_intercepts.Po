@@ -1,0 +1,243 @@
+vgpreload_helgrind_x86_linux_so-hg_intercepts.o: hg_intercepts.c \
+ ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include/stdarg.h \
+ ../include/pub_tool_redir.h ../config.h ../include/pub_tool_basics.h \
+ ../include/pub_tool_clreq.h ../include/valgrind.h helgrind.h \
+ ../include/valgrind.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/stdio.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/cdefs.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/cdefs_elf.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/android/api-level.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include/stddef.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include/stdint.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/stdint.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/_types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/_types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/_wchar_limits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/posix_types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/stddef.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/compiler.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include-fixed/asm/posix_types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/features.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/posix_types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/posix_types_32.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/kernel.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/sysmacros.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/assert.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/errno.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/errno.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/errno.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/errno.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/errno-base.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/pthread.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/time.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/time.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/time.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/siginfo.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/siginfo.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/signal.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include-fixed/limits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include-fixed/syslimits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/limits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/limits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/limits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/internal_types.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/limits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/syslimits.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/page.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/page_32.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/string.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/malloc.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/signal.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/signal.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/sigcontext.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/ucontext.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/user.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sched.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/semaphore.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/fcntl.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/fcntl.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/fcntl.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/fcntl.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/unistd.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/select.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/sysconf.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/capability.h \
+ /home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/pathconf.h \
+ ../shared/vg_replace_strmem.c ../include/pub_tool_poolalloc.h \
+ ../include/pub_tool_hashtable.h ../include/pub_tool_tooliface.h \
+ ../include/pub_tool_errormgr.h ../include/pub_tool_execontext.h \
+ ../include/pub_tool_debuginfo.h ../include/pub_tool_xarray.h \
+ ../VEX/pub/libvex.h ../VEX/pub/libvex_basictypes.h \
+ ../VEX/pub/libvex_ir.h
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include/stdarg.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:
+
+../include/pub_tool_basics.h:
+
+../include/pub_tool_clreq.h:
+
+../include/valgrind.h:
+
+helgrind.h:
+
+../include/valgrind.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/stdio.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/cdefs.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/cdefs_elf.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/android/api-level.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include/stddef.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include/stdint.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/stdint.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/_types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/_types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/_wchar_limits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/posix_types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/stddef.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/compiler.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include-fixed/asm/posix_types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/features.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/posix_types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/posix_types_32.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/kernel.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/sysmacros.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/assert.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/errno.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/errno.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/errno.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/errno.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/errno-base.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/pthread.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/time.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/time.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/time.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/siginfo.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/siginfo.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/signal.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include-fixed/limits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/toolchains/x86-4.9/prebuilt/linux-x86_64/lib/gcc/i686-linux-android/4.9/include-fixed/syslimits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/limits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/limits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/limits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/internal_types.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/machine/limits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/syslimits.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/page.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/page_32.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/string.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/malloc.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/signal.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/signal.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/sigcontext.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/ucontext.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/user.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sched.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/semaphore.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/fcntl.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/fcntl.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm/fcntl.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/asm-generic/fcntl.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/unistd.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/select.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/sys/sysconf.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/linux/capability.h:
+
+/home/shin/workspace/nativeDBI/deviceTest/valgrind/android-ndk-r10c/platforms/android-14/arch-x86/usr/include/pathconf.h:
+
+../shared/vg_replace_strmem.c:
+
+../include/pub_tool_poolalloc.h:
+
+../include/pub_tool_hashtable.h:
+
+../include/pub_tool_tooliface.h:
+
+../include/pub_tool_errormgr.h:
+
+../include/pub_tool_execontext.h:
+
+../include/pub_tool_debuginfo.h:
+
+../include/pub_tool_xarray.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:

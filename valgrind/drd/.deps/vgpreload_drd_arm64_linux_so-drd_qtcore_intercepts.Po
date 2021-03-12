@@ -1,0 +1,38 @@
+vgpreload_drd_arm64_linux_so-drd_qtcore_intercepts.o: \
+ drd_qtcore_intercepts.c \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/assert.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/android/api-level.h \
+ drd_clientreq.h drd.h ../include/valgrind.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h \
+ drd_basics.h ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ ../include/pub_tool_redir.h ../config.h ../include/pub_tool_basics.h
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/assert.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/sys/cdefs_elf.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/android/api-level.h:
+
+drd_clientreq.h:
+
+drd.h:
+
+../include/valgrind.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h:
+
+drd_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../include/pub_tool_redir.h:
+
+../config.h:
+
+../include/pub_tool_basics.h:

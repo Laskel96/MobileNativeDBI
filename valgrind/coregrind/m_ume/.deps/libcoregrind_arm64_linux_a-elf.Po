@@ -1,0 +1,135 @@
+m_ume/libcoregrind_arm64_linux_a-elf.o: m_ume/elf.c pub_core_basics.h \
+ ../include/pub_tool_basics.h ../VEX/pub/libvex_basictypes.h \
+ /home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h \
+ pub_core_vki.h ../include/pub_tool_vki.h ../include/vki/vki-linux.h \
+ ../include/vki/vki-posixtypes-arm64-linux.h \
+ ../include/vki/vki-arm64-linux.h ../include/vki/vki-linux-drm.h \
+ pub_core_basics.h pub_core_aspacemgr.h ../include/pub_tool_aspacemgr.h \
+ ../include/pub_tool_basics.h pub_core_debuglog.h pub_core_libcassert.h \
+ ../include/pub_tool_libcassert.h pub_core_libcbase.h \
+ ../include/pub_tool_libcbase.h pub_core_libcprint.h \
+ ../include/pub_tool_libcprint.h pub_core_libcfile.h \
+ ../include/pub_tool_libcfile.h ../include/pub_tool_vki.h \
+ pub_core_machine.h ../include/pub_tool_machine.h ../VEX/pub/libvex.h \
+ ../VEX/pub/libvex_basictypes.h ../VEX/pub/libvex_ir.h \
+ pub_core_mallocfree.h ../include/pub_tool_mallocfree.h \
+ pub_core_syscall.h pub_core_ume.h m_ume/priv_ume.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/elf.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/auxvec.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/auxvec.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/elf.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/bitsperlong.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/stddef.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/compiler.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/elf-em.h \
+ /home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/machine/elf_machdep.h
+
+pub_core_basics.h:
+
+../include/pub_tool_basics.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+/home/shin/Downloads/android-ndk-r10c/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9/include/stdarg.h:
+
+pub_core_vki.h:
+
+../include/pub_tool_vki.h:
+
+../include/vki/vki-linux.h:
+
+../include/vki/vki-posixtypes-arm64-linux.h:
+
+../include/vki/vki-arm64-linux.h:
+
+../include/vki/vki-linux-drm.h:
+
+pub_core_basics.h:
+
+pub_core_aspacemgr.h:
+
+../include/pub_tool_aspacemgr.h:
+
+../include/pub_tool_basics.h:
+
+pub_core_debuglog.h:
+
+pub_core_libcassert.h:
+
+../include/pub_tool_libcassert.h:
+
+pub_core_libcbase.h:
+
+../include/pub_tool_libcbase.h:
+
+pub_core_libcprint.h:
+
+../include/pub_tool_libcprint.h:
+
+pub_core_libcfile.h:
+
+../include/pub_tool_libcfile.h:
+
+../include/pub_tool_vki.h:
+
+pub_core_machine.h:
+
+../include/pub_tool_machine.h:
+
+../VEX/pub/libvex.h:
+
+../VEX/pub/libvex_basictypes.h:
+
+../VEX/pub/libvex_ir.h:
+
+pub_core_mallocfree.h:
+
+../include/pub_tool_mallocfree.h:
+
+pub_core_syscall.h:
+
+pub_core_ume.h:
+
+m_ume/priv_ume.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/elf.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/auxvec.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/auxvec.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/elf.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/int-ll64.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/bitsperlong.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/bitsperlong.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/posix_types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/stddef.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/compiler.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm/posix_types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/asm-generic/posix_types.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/linux/elf-em.h:
+
+/home/shin/Downloads/android-ndk-r10c/platforms/android-21/arch-arm64/usr/include/machine/elf_machdep.h:

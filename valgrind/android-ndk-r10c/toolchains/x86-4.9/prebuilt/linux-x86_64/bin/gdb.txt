@@ -1,0 +1,1188 @@
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+Undefined command: "infor".  Try "help".
+eax            0x0	0
+ecx            0xb	11
+edx            0x0	0
+ebx            0x3844	14404
+esp            0x62a8de54	0x62a8de54
+ebp            0x0	0x0
+esi            0x0	0
+edi            0x0	0
+eip            0x58022182	0x58022182
+eflags         0x246	[ PF ZF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+Value can't be converted to integer.
+=> 0x58022182:	pop    %ebp
+=> 0x58022182:	pop    %ebp
+   0x58022183:	pop    %ebx
+   0x58022184:	pop    %edi
+   0x58022185:	pop    %esi
+   0x58022186:	ret    
+   0x58022187:	mov    %esi,%esi
+   0x58022189:	lea    0x0(%edi,%eiz,1),%edi
+   0x58022190:	push   %ebx
+   0x58022191:	mov    0xc(%esp),%ecx
+   0x58022195:	mov    0x8(%esp),%eax
+#0  0x58022182 in ?? ()
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+No registers.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+   0x58022172:	and    $0x20,%al
+   0x58022174:	mov    0x24(%esp),%esi
+   0x58022178:	mov    0x28(%esp),%edi
+   0x5802217c:	mov    0x2c(%esp),%ebp
+   0x58022180:	int    $0x80
+   0x58022182:	pop    %ebp
+   0x58022183:	pop    %ebx
+   0x58022184:	pop    %edi
+   0x58022185:	pop    %esi
+   0x58022186:	ret    
+Breakpoint 4 at 0x58022180
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+#0  0x58022180 in ?? ()
+Undefined command: "inro".  Try "help".
+eax            0xe0	224
+ecx            0x0	0
+edx            0x0	0
+ebx            0x0	0
+esp            0x62a8da24	0x62a8da24
+ebp            0x0	0x0
+esi            0x0	0
+edi            0x0	0
+eip            0x58022180	0x58022180
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+No function contains program counter for selected frame.
+0x58022182 in ?? ()
+0x58022183 in ?? ()
+   0x58022180:	int    $0x80
+   0x58022182:	pop    %ebp
+=> 0x58022183:	pop    %ebx
+   0x58022184:	pop    %edi
+   0x58022185:	pop    %esi
+   0x58022186:	ret    
+   0x58022187:	mov    %esi,%esi
+   0x58022189:	lea    0x0(%edi,%eiz,1),%edi
+   0x58022190:	push   %ebx
+   0x58022191:	mov    0xc(%esp),%ecx
+eax            0x3866	14438
+ecx            0x0	0
+edx            0x0	0
+ebx            0x0	0
+esp            0x62a8da28	0x62a8da28
+ebp            0x62002ad0	0x62002ad0
+esi            0x0	0
+edi            0x0	0
+eip            0x58022183	0x58022183
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+0x58022184 in ?? ()
+0x58022185 in ?? ()
+0x58022186 in ?? ()
+#0  0x58022186 in ?? ()
+#1  0x580223a6 in ?? ()
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+eax            0x3866	14438
+ecx            0x0	0
+edx            0x0	0
+ebx            0x62a8da88	1655233160
+esp            0x62a8da34	0x62a8da34
+ebp            0x62002ad0	0x62002ad0
+esi            0x62a8db0c	1655233292
+edi            0xbefff9a4	-1090520668
+eip            0x58022186	0x58022186
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+   0x58022180:	int    $0x80
+   0x58022182:	pop    %ebp
+   0x58022183:	pop    %ebx
+   0x58022184:	pop    %edi
+   0x58022185:	pop    %esi
+=> 0x58022186:	ret    
+   0x58022187:	mov    %esi,%esi
+   0x58022189:	lea    0x0(%edi,%eiz,1),%edi
+   0x58022190:	push   %ebx
+   0x58022191:	mov    0xc(%esp),%ecx
+0x580223a6 in ?? ()
+eax            0x3866	14438
+ecx            0x0	0
+edx            0x0	0
+ebx            0x62a8da88	1655233160
+esp            0x62a8da38	0x62a8da38
+ebp            0x62002ad0	0x62002ad0
+esi            0x62a8db0c	1655233292
+edi            0xbefff9a4	-1090520668
+eip            0x580223a6	0x580223a6
+eflags         0x282	[ SF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+=> 0x580223a6:	mov    %eax,%edx
+   0x580223a8:	lea    0xfff(%eax),%eax
+   0x580223ae:	cmp    $0xffe,%eax
+   0x580223b3:	mov    %edx,%esi
+   0x580223b5:	setbe  %cl
+   0x580223b8:	neg    %esi
+   0x580223ba:	mov    %cl,(%ebx)
+   0x580223bc:	cmp    $0xffe,%eax
+   0x580223c1:	mov    %ebx,%eax
+   0x580223c3:	cmovbe %esi,%edx
+   0x580223c6:	mov    %edx,0x4(%ebx)
+   0x580223c9:	lea    0x1c(%esp),%esp
+   0x580223cd:	pop    %ebx
+   0x580223ce:	pop    %esi
+   0x580223cf:	ret    $0x4
+   0x580223d2:	lea    0x0(%esi,%eiz,1),%esi
+   0x580223d9:	lea    0x0(%edi,%eiz,1),%edi
+   0x580223e0:	mov    0x4(%esp),%edx
+   0x580223e4:	cmp    $0x13,%edx
+   0x580223e7:	je     0x58022608
+   0x580223ed:	ja     0x58022448
+   0x580223ef:	cmp    $0x9,%edx
+   0x580223f2:	je     0x58022610
+   0x580223f8:	nop
+   0x580223f9:	lea    0x0(%esi,%eiz,1),%esi
+   0x58022400:	jbe    0x58022490
+   0x58022406:	cmp    $0xe,%edx
+   0x58022409:	je     0x58022618
+   0x5802240f:	nop
+   0x58022410:	ja     0x58022558
+0x580223a8 in ?? ()
+0x580223ae in ?? ()
+0x580223b3 in ?? ()
+0x580223b5 in ?? ()
+0x580223b8 in ?? ()
+0x580223ba in ?? ()
+0x580223bc in ?? ()
+0x580223c1 in ?? ()
+0x580223c3 in ?? ()
+0x580223c6 in ?? ()
+0x580223c9 in ?? ()
+0x580223cd in ?? ()
+0x580223ce in ?? ()
+0x580223cf in ?? ()
+0x580182e8 in ?? ()
+#0  0x580182e8 in ?? ()
+#1  0x0001869e in ?? ()
+#2  0x00000000 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 4, 0x58022180 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+Warning:
+Cannot insert breakpoint 4.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Breakpoint 5 at 0x58022180
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 5, 0x58022180 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Breakpoint 6 at 0x58022180
+#0  0x62a90123 in ?? ()
+#1  0x0001869e in ?? ()
+#2  0x00000000 in ?? ()
+eax            0xbefff9a0	-1090520672
+ecx            0xbeffe6d0	-1090525488
+edx            0x8	8
+ebx            0x62002ac0	1644178112
+esp            0x62a8de84	0x62a8de84
+ebp            0x62002ad0	0x62002ad0
+esi            0xbefff9c8	-1090520632
+edi            0xbefff9a4	-1090520668
+eip            0x62a90123	0x62a90123
+eflags         0x10282	[ SF IF RF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 6, 0x58022180 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+eax            0x0	0
+ecx            0xb	11
+edx            0x0	0
+ebx            0x38d3	14547
+esp            0x62a8de54	0x62a8de54
+ebp            0x0	0x0
+esi            0x0	0
+edi            0x0	0
+eip            0x58022182	0x58022182
+eflags         0x246	[ PF ZF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+   0x58022180:	int    $0x80
+   0x58022180:	int    $0x80
+=> 0x58022182:	pop    %ebp
+   0x58022183:	pop    %ebx
+   0x58022184:	pop    %edi
+   0x58022185:	pop    %esi
+   0x58022186:	ret    
+   0x58022187:	mov    %esi,%esi
+   0x58022189:	lea    0x0(%edi,%eiz,1),%edi
+   0x58022190:	push   %ebx
+   0x58022191:	mov    0xc(%esp),%ecx
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+Warning:
+Cannot insert breakpoint 6.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Breakpoint 7 at 0x58022180
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 7, 0x58022180 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+Warning:
+Cannot insert breakpoint 7.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+Warning:
+Cannot insert breakpoint 7.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Breakpoint 8 at 0x58022180
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 8, 0x58022180 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Breakpoint 9 at 0x58022180
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 9, 0x58022180 in ?? ()
+=> 0x58022180:	int    $0x80
+eax            0x25	37
+ecx            0xb	11
+edx            0x0	0
+ebx            0x3a87	14983
+esp            0x62a8de54	0x62a8de54
+ebp            0x0	0x0
+esi            0x0	0
+edi            0x0	0
+eip            0x58022180	0x58022180
+eflags         0x246	[ PF ZF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+0x58022182 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+Warning:
+Cannot insert breakpoint 9.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060080 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x62a90123 in ?? ()
+Breakpoint 10 at 0x58022180
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+eax            0x14	20
+ecx            0x0	0
+edx            0x0	0
+ebx            0x0	0
+esp            0x62a8de54	0x62a8de54
+ebp            0x0	0x0
+esi            0x0	0
+edi            0x0	0
+eip            0x58022180	0x58022180
+eflags         0x246	[ PF ZF IF ]
+cs             0x73	115
+ss             0x7b	123
+ds             0x7b	123
+es             0x7b	123
+fs             0x0	0
+gs             0x0	0
+Value can't be converted to integer.
+=> 0x58022180:	int    $0x80
+Continuing.
+
+Breakpoint 10, 0x58022180 in ?? ()
+0x58022182 in ?? ()
+
+Program received signal SIGSEGV, Segmentation fault.
+0x58022182 in ?? ()
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Remote debugging using :5039
+warning: Could not load vsyscall page because no executable was specified
+try using the "file" command first.
+0x080487e0 in ?? ()
+Continuing.
+Warning:
+Cannot insert breakpoint 10.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+Warning:
+Cannot insert breakpoint 10.
+Error accessing memory address 0x58022180: Unknown error -1.
+
+Continuing.
+
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x58060090 in ?? ()
+Continuing.
+
+Program received signal SIGSEGV, Segmentation fault.
+0x580147f6 in ?? ()
+#0  0x580147f6 in ?? ()
+#1  0xfff64c4c in ?? ()
+#2  0xffffdf1c in ?? ()
+#3  0xfff64cdc in ?? ()
+#4  0xffffdf40 in ?? ()
+#5  0xfff64d0c in ?? ()
+#6  0x00000010 in ?? ()
+#7  0x5822db1c in ?? ()
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+=> 0x580147f6:	movl   $0x0,0x10(%esp)
+Continuing.
+
+Program terminated with signal SIGSEGV, Segmentation fault.
+The program no longer exists.
+Undefined command: "exit".  Try "help".
+The program is not being run.
