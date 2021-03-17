@@ -35,3 +35,10 @@ cd valgrind
 ```
 This will compile your code into valgrind/Inst.  
 If you are using 'real device' (or need ARM architecture) change android.sh file. (There already examples for it)  
+
+## Using Docker
+Just build with Dockerfile and run script.  
+'''sh
+docker build -t test .
+./run_nativeDBI_by_docker.sh
+'''
