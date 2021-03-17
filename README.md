@@ -38,7 +38,7 @@ If you are using 'real device' (or need ARM architecture) change android.sh file
 
 ## Using Docker
 Just build with Dockerfile and run script.  
-'''sh
+```sh
 docker build -t test .
 ./run_nativeDBI_by_docker.sh
-'''
+```
