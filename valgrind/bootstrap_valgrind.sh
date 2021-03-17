@@ -12,7 +12,7 @@ echo "Get oat from device"
 oatfile="/data/dalvik-cache/x86/data@app@$PACKAGE-1@base.apk@classes.dex"
 adb shell oatdump --oat-file=$oatfile  > valgrind/addition/DB/dumpoat
 fileSize=$(wc -c valgrind/addition/DB/dumpoat | awk '{print $1}')
-if [fileSize -lt 3000]
+if [ $fileSize -lt 3000 ]
 then
 	oatfile="/data/dalvik-cache/x86/data@app@$PACKAGE-2@base.apk@classes.dex"
 	adb shell oatdump --oat-file=$oatfile  > valgrind/addition/DB/dumpoat
@@ -60,6 +60,7 @@ adb shell am force-stop $PACKAGE
 
 sleep 3s
 echo "run $PACKAGE"
+adb shell mkdir /data/local/tmp/log
 adb shell am start -W -a android.intent.action.MAIN -n $PACKAGE/$ACTIVITY > log_status
 
 exit 0
