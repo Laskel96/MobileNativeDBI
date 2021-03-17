@@ -7,7 +7,8 @@ Paper Name : Instruction-level OAT native code Instrumentation Scheme based on P
 Ubuntu 14 to 18 is recommended for the host or VM operating system.  
 This tool requires Android Studio or at least AVD Manager.  
 The sample emulator was set up with Nexus 5 and Lillipop android 5.1 x86.  
-> Note: Higher versions of the emulator may cause unexpected problems.  
+> Note: Higher versions of the emulator may cause unexpected problems.
+> Note : Do Not Install Docker With `Root` Permission!!
 
 ## Install & Usage
 When the emulator is ready, follow the steps below.  
@@ -18,7 +19,7 @@ cd native_dbi
 git clone https://github.com/ssu-csec/code-Mobile_Native_DBI
 ```
 
-You should edit run_nativeDBI_by_host.sh.  
+You can edit run_nativeDBI_by_host.sh.  
 Change target application name and emulator name.  
 After change, Just run below commands.  
 
@@ -42,3 +43,5 @@ Just build with Dockerfile and run script.
 docker build -t test .
 ./run_nativeDBI_by_docker.sh
 ```
+It takes time for the emulator inside docker to run.  
+It is good to adjust the sleep time according to the performance.  
