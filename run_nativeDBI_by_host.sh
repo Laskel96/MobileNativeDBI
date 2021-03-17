@@ -1,3 +1,4 @@
+#!/bin/bash
 #Edit : apk file name
 entry="app-debug.apk"
 
